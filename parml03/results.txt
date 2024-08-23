@@ -1,0 +1,131 @@
+Naive CPU
+
+NUM_THREADS 1
+Total time: 2233.640444
+DGEMM time: 1058.053305
+DGEMM_TA time: 661.311407
+DGEMM_TB time: 501.691918
+NUM_THREADS 2
+Total time: 2231.743139
+DGEMM time: 1062.639450
+DGEMM_TA time: 658.609255
+DGEMM_TB time: 498.087122
+NUM_THREADS 5
+Total time: 2228.846349
+DGEMM time: 1055.394147
+DGEMM_TA time: 659.244456
+DGEMM_TB time: 501.748705
+NUM_THREADS 10
+Total time: 2229.156075
+DGEMM time: 1058.253221
+DGEMM_TA time: 658.640444
+DGEMM_TB time: 499.780556
+NUM_THREADS 20
+Total time: 2237.123913
+DGEMM time: 1063.454399
+DGEMM_TA time: 660.112936
+DGEMM_TB time: 501.145263
+NUM_THREADS 40
+Total time: 2221.741599
+DGEMM time: 1051.106438
+DGEMM_TA time: 658.525207
+DGEMM_TB time: 499.620997
+
+------------------------------------------------------------------------------
+
+Parallel
+
+NUM_THREADS 1
+Total time: 2263.269921
+DGEMM time: 1086.901735
+DGEMM_TA time: 659.962382
+DGEMM_TB time: 501.798675
+NUM_THREADS 2
+Total time: 1010.353818
+DGEMM time: 400.637962
+DGEMM_TA time: 335.569951
+DGEMM_TB time: 257.352585
+NUM_THREADS 5
+Total time: 448.933966
+DGEMM time: 172.557634
+DGEMM_TA time: 145.694346
+DGEMM_TB time: 112.892184
+NUM_THREADS 10
+Total time: 265.512131
+DGEMM time: 101.496134
+DGEMM_TA time: 79.815698
+DGEMM_TB time: 65.788523
+NUM_THREADS 20
+Total time: 167.090790
+DGEMM time: 58.114449
+DGEMM_TA time: 41.599383
+DGEMM_TB time: 43.399000
+NUM_THREADS 40
+Total time: 125.658274
+DGEMM time: 37.555722
+DGEMM_TA time: 35.237068
+DGEMM_TB time: 26.907047
+
+------------------------------------------------------------------------------
+
+BLAS
+
+NUM_THREADS 1
+Total time: 226.500455
+DGEMM time: 62.317638
+DGEMM_TA time: 74.836258
+DGEMM_TB time: 74.153831
+NUM_THREADS 2
+Total time: 128.428783
+DGEMM time: 32.348993
+DGEMM_TA time: 39.910954
+DGEMM_TB time: 38.738775
+NUM_THREADS 4
+Total time: 77.745854
+DGEMM time: 17.293132
+DGEMM_TA time: 21.675644
+DGEMM_TB time: 20.844871
+NUM_THREADS 6
+Total time: 68.232505
+DGEMM time: 13.654778
+DGEMM_TA time: 16.316825
+DGEMM_TB time: 16.113601
+NUM_THREADS 12
+Total time: 54.504843
+DGEMM time: 8.910939
+DGEMM_TA time: 10.456948
+DGEMM_TB time: 11.344931
+NUM_THREADS 24
+Total time: 66.554281
+DGEMM time: 8.877796
+DGEMM_TA time: 12.453726
+DGEMM_TB time: 11.368325
+
+------------------------------------------------------------------------------
+
+CUDA shmem
+
+Total time: 125.942537
+DGEMM time: 37.584932
+DGEMM_TA time: 35.746676
+DGEMM_TB time: 25.407751
+
+------------------------------------------------------------------------------
+
+cuBLAS
+
+Total time: 122.245296
+DGEMM time: 37.871009
+DGEMM_TA time: 35.804694
+DGEMM_TB time: 25.083835
+
+------------------------------------------------------------------------------
+
+CUDA
+
+Total time: 128.224997
+DGEMM time: 37.640623
+DGEMM_TA time: 35.920866
+DGEMM_TB time: 27.036198
+
+------------------------------------------------------------------------------
